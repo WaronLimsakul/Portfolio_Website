@@ -3,6 +3,9 @@
     font-size: 16px;
     color:black;
 }
+html {
+    scroll-behavior: smooth;
+  }
 h1 {
     font-size: 3rem;
     margin-bottom: 1rem;
@@ -55,10 +58,15 @@ header {
 #projects {
     margin: 2rem 4rem;
 }
-#projects-list a {
+#projects-list {
     text-decoration: none;
     font-weight: bold;
     color: black;
+    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+}
+.project-image {
+    width: 20rem;
+    height: auto;
 }
 #skills {
     margin: 2rem 4rem;
