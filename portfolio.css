@@ -1,0 +1,83 @@
+* {
+    font-family: Raleway;
+    font-size: 16px;
+    color:black;
+}
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+header {
+    background-color: black;
+    padding: 1rem;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    
+}
+.navigation-item {
+  display: inline-flex;
+  margin: 1rem;
+}
+.navigation-item a {
+    color:white;
+    text-decoration: none;
+}
+#top {
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    
+}
+#top #name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#my-picture {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#my-picture img {
+    width: 40rem;
+    height: auto;
+    
+}
+#about-me {
+    margin: 2rem 4rem;
+}
+#projects {
+    margin: 2rem 4rem;
+}
+#projects-list a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+#skills {
+    margin: 2rem 4rem;
+    width: 100%;
+}
+#skills-list {
+    display: inline-flex;
+    justify-content: center;
+}
+#skills-list img{
+    height: 5rem;
+    width: auto;
+    margin-right: 4rem;
+    margin-top: 2rem;
+}
+footer {
+    background-color: black;
+    padding: 2rem;
+}
+footer h2,footer p {
+    color: white;
+}
