@@ -25,7 +25,7 @@ header {
 }
 .navigation-item {
   display: inline-flex;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 .navigation-item a {
     color:white;
@@ -80,6 +80,7 @@ details {
 #skills-list {
     display: inline-flex;
     justify-content: center;
+    flex-wrap: wrap;
 }
 #skills-list img{
     height: 5rem;
